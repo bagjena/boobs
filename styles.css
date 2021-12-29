@@ -1,0 +1,141 @@
+*{
+    margin:0;
+}
+body{
+    width: 100%;
+}
+h1{
+    color:rgb(214, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+}
+.main{
+    display: flex; 
+    padding: 0 15%;
+    justify-content: space-between;
+}
+
+header p{
+text-align: center;
+font-size: x-large;
+margin-bottom: 30px;
+}
+
+.right{
+     background-color: rgb(255, 229, 208);
+     border-radius: 100%;
+     width: 45%;
+     max-width: 550px;
+}
+.left{
+    background-color: rgb(226, 164, 255);
+    width: 45%;
+    max-width: 550px;
+    border-radius: 100%;
+
+}
+.boobs{ 
+    width: 15%;
+    margin: 45% auto;
+    background-color: rgb(209, 102, 102);
+    border-radius: 100%;
+    text-align: center;
+    max-width: 90px;
+
+}
+.boobs p{
+	height: 0;
+	margin: 0;
+	padding: 50% 20%;
+}
+.boobs:hover {
+    background-color: tomato;
+}
+span{
+    display: block;
+	transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* CSS */
+.button-35 {
+  background-color: rgb(255, 89, 186);
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  width: 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 20px auto; 
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  border: 0;
+  user-select: none;
+  touch-action: manipulation;
+  animation-name: example;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color:rgb(255, 37, 37); left:0px; top:0px; color: white;}
+    25%  {background-color:rgb(190, 56, 16); left:200px; top:0px;}
+    50%  {background-color:rgb(126, 5, 5); left:200px; top:200px;}
+    75%  {background-color:rgb(128, 0, 60); left:0px; top:200px; color: white;}
+    100% {background-color:rgb(255, 0, 106); left:0px; top:0px;}
+  }
+
+.button-35:hover {
+  box-shadow: #e45cff 0 0 0 3px, transparent 0 0 0 0;
+}
+.dick{
+  display: none;
+    position: absolute;
+    top:70px;
+}
+.dick p{
+    font-size: 10em;
+    text-align: center;
+    animation-name: dick;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+@media only screen and (max-width: 600px) {
+    .dick p {
+      font-size:5em ;
+    }
+  }
+  @keyframes dick {
+    0%   {color: rgb(255, 1, 1);}
+    15%  {color: yellow;}
+    30%  {color:orange}
+    50%  {color: rgb(30, 146, 255);}
+    65% {color: navy;}
+    78% {color: olivedrab;}
+    90% {color: rgb(170, 0, 156);}
+    100% {color: indigo; }
+  }
+  .oh{
+    color: rgb(115, 2, 168);
+    font-size: 80px;
+    display: none;
+    /* position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top:-10%; */
+    
+  }
+.boobs:hover .oh{
+  display: block;
+}
