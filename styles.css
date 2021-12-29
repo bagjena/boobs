@@ -1,6 +1,10 @@
 *{
     margin:0;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  background: rgba(255, 255, 255, 0.0);
+}
 body{
     width: 100%;
 }
@@ -129,11 +133,7 @@ a{
     color: rgb(115, 2, 168);
     font-size: 80px;
     display: none;
-    /* position: absolute;
-    margin: 0;
-    left: 0;
-    right: 0;
-    top:-10%; */
+
     
   }
 .boobs:hover .oh{
